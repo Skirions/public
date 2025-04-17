@@ -1,0 +1,30 @@
+/* prettier-ignore */
+/*# sourceMappingURL=user.css.map */
+
+.home-content{
+ height: auto !important;
+}
+/* Fix para scroll en offcanvas - Solucionó problema de scroll unidireccional */
+/* Estilos para el offcanvas */
+.offcanvas-start.home-content {
+  overflow-y: auto !important;
+  overscroll-behavior-y: contain !important;
+  -webkit-overflow-scrolling: touch !important;
+  touch-action: pan-y !important;
+  scroll-behavior: smooth !important;
+}
+
+/* Reset de estilos que podrían interferir */
+.offcanvas-start.home-content .offcanvas-body {
+  overflow: visible !important;
+  height: auto !important;
+}
+
+/* Opcional: estilo para la barra de scroll */
+.offcanvas-start::-webkit-scrollbar {
+  width: 6px;
+}
+.offcanvas-start::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}

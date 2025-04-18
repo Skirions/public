@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<!-- ===============================================-->
+<!--    CABECERA PRINCIPAL                          -->
+<!-- ===============================================-->
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    
+    <!-- Título de la página -->
+    <title>Boots5 | Look like an expert right from the start</title>
+    
+    <!-- Favicon y assets para diferentes dispositivos -->
+    <link href="assets/img/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+    <link href="assets/img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="assets/img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+    <link href="assets/img/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="assets/img/favicons/manifest.json" rel="manifest"/>
+    <meta content="assets/img/favicons/mstile-150x150.png" name="msapplication-TileImage"/>
+    <meta content="#ffffff" name="theme-color"/>
+    
+    <!-- Hojas de estilo -->
+    <link href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+    <!-- Librerías CSS -->
+    <link href="vendors/prism/prism.css" rel="stylesheet"/>
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <link href="assets/css/user.css" rel="stylesheet">
+    <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+<!-- ===============================================-->
+<!--    CONTENIDO PRINCIPAL                         -->
+<!-- ===============================================-->
+<main class="main" id="top">
+
+    <!-- ============================================-->
+    <!-- PRELOADER - Animación de carga inicial      -->
+    <!-- ============================================-->
+    <div class="preloader" id="preloader">
+        <div class="loader"><span> </span><span></span><span></span><span></span><span> </span></div>
+    </div>
+
+    <!-- ============================================-->
+    <!-- PANEL IZQUIERDO - Información de contacto   -->
+    <!-- ============================================-->
+    <div class="offcanvas offcanvas-start home-content show" data-base-content="home" data-bs-backdrop="false" data-bs-scroll="true" id="offcanvasStart" tabindex="-1">
+        <div class="offcanvas-body d-logo-flex flex-column flex-center h-sm-25vh h-lg-50vh">
+            <div class="row justify-content-center">
+                <div class="col-11 col-sm-9 col-lg-10 col-xxl-10 text-center">
+                    <!-- Logo y nombre de la notaría -->
+                    <a href="index.html">
+                        <div class="text-center mb-lg-4">
+                            <h2 class="fs-1 fs-sm-2"> <span class="text-900">Notaría de </span>Inmaculada Espiñeira Soto</h2>
+                            <hr class="my-2 text-500"/>
+                        </div>
+                    </a>
+                    <!-- Imagen del logo (con versión WebP para navegadores modernos) -->
+                    <a aria-label="Escudo Notarial" href="index.html">
+                        <picture>
+                            <source srcset="assets/img/logos/logo.webp" type="image/webp"/>
+                            <img alt="" class="img-fluid px-6 px-xl-6 px-xxl-0 w-lg-100 vw-sm-75" height="701" src="assets/img/logos/logo.png" width="368"/>
+                        </picture>
+                    </a>
+                    <hr class="my-2 text-500"/>
+                    <!-- Información de contacto -->
+                    <h2 class="fs-1 fs-sm-2">Rúa Senra 1 </h2>
+                    <h2 class="fs-1 fs-sm-1"> <a href="tel:981552153"><i class="fa fa-phone"></i> 981 552 153</a></h2>
+                    <h2 class="fs-1 fs-sm-2">Santiago de Compostela</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================-->
+    <!-- MENÚ DERECHO - Navegación principal         -->
+    <!-- ============================================-->
+    <div class="offcanvas offcanvas-end home-nav show" data-base-content="nav" data-bs-backdrop="false" data-bs-scroll="true" id="offcanvasEnd" tabindex="-1">
+        <div class="offcanvas-body p-0 position-lg-fixed position-relative">
+            <div class="row vh-lg-100 g-0">
+                <!-- Cada elemento del menú usa la misma estructura -->
+                
+                <!-- 1. About -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-blue-soft">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
+                    <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
+                        <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/diamond-6-2.png"/></div>
+                        <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#about">About</a>
+                    </div>
+                </div>
+                
+                <!-- 2. Services -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-blue-dark">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
+                    <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
+                        <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/thunder-6-2.png"/></div>
+                        <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#services">Services</a>
+                    </div>
+                </div>
+                
+                <!-- 3. Portfolio -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-cyan-soft">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
+                    <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
+                        <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/trophy-6-2.png"/></div>
+                        <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#portfolio">Portfolio</a>
+                    </div>
+                </div>
+                
+                <!-- 4. Contact -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-cyan-dark">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
+                    <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
+                        <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/map-6-2.png"/></div>
+                        <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- 5. FAQ -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-green-soft">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
+                    <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
+                        <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/bubble-6-2.png"/></div>
+                        <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#faq">FAQ</a>
+                    </div>
+                </div>
+                
+                <!-- 6. Gallery -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-green-dark">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
+                    <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
+                        <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/camera-6-2.png"/></div>
+                        <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#gallery">Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================-->
+    <!-- SECCIÓN ABOUT (Historia de la empresa)      -->
+    <!-- ============================================-->
+    <section class="p-0 page d-none" id="about">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <!-- Contenido principal (75% ancho) -->
+                <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-8 pt-xl-7 pt-xxl-8 pb-0 px-lg-0">
+                    <div class="row flex-center" id="bigpicture">
+                        <div class="col-11 col-xl-7">
+                            <!-- Título principal -->
+                            <div class="text-center mb-5 mb-lg-6">
+                                <h2><span class="fw-medium">The Story of </span> Boots5</h2>
+                            </div>
+                            
+                            <!-- Video destacado con imagen de placeholder -->
+                            <div class="position-relative"> 
+                                <img alt="..." class="img-fluid rounded-3" src="assets/img/rainbow.png"/>
+                                <a class="player" data-bigpicture="{&quot;ytSrc&quot;:&quot;eXkYd1bbu3Q&quot;}" href="#!"> 
+                                    <img alt="..." src="assets/img/player.png"/>
+                                </a>
+                            </div>
+                            
+                            <!-- Descripción de la empresa -->
+                            <h3 class="pb-4 pt-5">To Infinity and Beyond! </h3>
+                            <p class="text-1000 fs-1">
+                                At Boots5, we believe there is a way where customers are earned rather than bought...
+                            </p>
+                            
+                            <!-- Estadísticas destacadas -->
+                            <div class="row flex-center pt-3 g-xxl-5" id="fun-facts">
+                                <!-- Estadística 1: Líneas de código -->
+                                <div class="col-12 col-sm-4 mb-4 h-100">
+                                    <div class="card card-span h-100 card-bg-line">
+                                        <div class="card-body py-8 d-flex flex-center">
+                                            <img alt="..." class="shadow-icon-1" src="assets/img/code.png"/>
+                                        </div>
+                                    </div>
+                                    <h1 class="fs-lg-2 fs-xxl-4 mt-3 fw-bold text-center text-gradient-blue" data-countup="{&quot;endValue&quot;:64973}">0</h1>
+                                    <p class="text-900 fw-bold text-center fs-xxl-1">Lines Of Code</p>
+                                </div>
+                                
+                                <!-- Estadística 2: Tazas de café -->
+                                <div class="col-12 col-sm-4 mb-4 h-100">
+                                    <div class="card card-span h-100 card-bg-coffee">
+                                        <div class="card-body py-8 d-flex flex-center">
+                                            <img alt="..." class="shadow-icon-2" src="assets/img/coffee.png"/>
+                                        </div>
+                                    </div>
+                                    <h1 class="fs-lg-2 fs-xxl-4 mt-3 fw-bold text-center text-gradient-purple" data-countup="{&quot;endValue&quot;:64973}">0</h1>
+                                    <p class="text-900 fw-bold text-center fs-xxl-1">Cups of Coffee</p>
+                                </div>
+                                
+                                <!-- Estadística 3: Descargas -->
+                                <div class="col-12 col-sm-4 mb-4 h-100">
+                                    <div class="card card-span h-100 card-bg-download">
+                                        <div class="card-body py-8 d-flex flex-center">
+                                            <img alt="..." class="shadow-icon-3" src="assets/img/download.png"/>
+                                        </div>
+                                    </div>
+                                    <h1 class="fs-lg-2 fs-xxl-4 mt-3 fw-bold text-center text-gradient-pink-1" data-countup="{&quot;endValue&quot;:64973}">0</h1>
+                                    <p class="text-900 fw-bold text-center fs-xxl-1">Download</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Equipo de trabajo -->
+                            <div class="row justify-content-center pt-6 g-2">
+                                <div class="text-center mb-5 mb-lg-6">
+                                    <h2 class="fs-2 fs-sm-3"> <span class="fw-medium">Meet </span>Our Team</h2>
+                                </div>
+                                <div class="col-lg-11 col-xxl-9">
+                                    <div class="row justify-content-center">
+                                        <!-- Miembro 1 -->
+                                        <div class="col-6 mb-5">
+                                            <div class="position-relative d-flex flex-center flex-column">
+                                                <img alt="" class="img-fluid rounded-circle" src="assets/img/team/1.jpg" width="242"/>
+                                                <h5 class="fw-bold mt-3 mb-1">Alex Butler</h5>
+                                                <h5 class="fw-normal text-800 mb-1">Fraud Manager</h5>
+                                                <a class="stretched-link" href="#!"></a>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Miembro 2 -->
+                                        <div class="col-6 mb-5">
+                                            <div class="position-relative d-flex flex-center flex-column">
+                                                <img alt="" class="img-fluid rounded-circle" src="assets/img/team/2.jpg" width="242"/>
+                                                <h5 class="fw-bold mt-3 mb-1">Andreas Heim</h5>
+                                                <h5 class="fw-normal text-800 mb-1">Software Engineer</h5>
+                                                <a class="stretched-link" href="#!"></a>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Miembros 3-8 (versión compacta) -->
+                                        <div class="col-6 col-sm-4 col-auto mb-5">
+                                            <div class="position-relative d-flex flex-center flex-column">
+                                                <img alt="" class="img-fluid rounded-circle" src="assets/img/team/3.jpg" width="133"/>
+                                                <h5 class="fw-bold mt-3 mb-1">Amanda Alleson</h5>
+                                                <h5 class="fw-normal text-800 mb-1">UX Designer</h5>
+                                                <a class="stretched-link" href="#!"></a>
+                                            </div>
+                                        </div>
+                                        <!-- ... (otros miembros del equipo) ... -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Llamada a la acción -->
+                    <div class="row justify-content-center pt-3d">
+                        <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8">
+                            <div class="card bg-backdrop">
+                                <div class="card-body p-2 px-lg-2 px-xl-5">
+                                    <div class="py-5 text-center">
+                                        <h2 class="fs-1 fs-xxl-2 fw-bolder">Start your next project with us</h2>
+                                        <p class="mb-4 text-900">Join the talented group of artists and imaginators</p>
+                                        <a class="btn hover-top btn-boots-warning" href="#!">Join Boots5 </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10"><img alt="..." class="w-100" src="assets/img/cta/cta-about.png" style="border-radius:1rem;"/></div>
+                    </div>
+                    
+                    <!-- Footer de la sección -->
+                    <div class="row justify-content-center my-3">
+                        <div class="col-12 col-lg-10">
+                            <div class="card bg-soft-blue">
+                                <div class="card-body py-3">
+                                    <div class="row">
+                                        <div class="col-lg-6 text-center text-lg-start">
+                                            <p class="fs--1 my-2 fw-bold text-gradient-blue-soft">All rights Reserved © Your Company, 2021</p>
+                                        </div>
+                                        <div class="col-lg-6 d-lg-flex align-self-center justify-content-end text-center">
+                                            <p class="fs--1 mb-0 text-gradient-blue-soft">Made with <span class="fas fa-heart mx-1 text-primary"></span>by<a href="https://themewagon.com/"> Themewagon</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Barra lateral derecha (25% ancho) -->
+                <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
+                    <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                        <div class="btn-close-boots-container times">
+                            <div class="btn-close-boots"></div>
+                        </div>
+                        <div class="bg-holder sidebar-rounded" style="background-image:url(assets/img/sidebars/about.png);">
+                        </div>
+                        <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                            <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4">About Us</h1>
+                            <img alt="icon" class="d-none d-lg-block line-icons mt-5" src="assets/img/lineicons/diamond.png"/>
+                            <hr class="my-4 w-100 d-none d-lg-block opacity-25"/>
+                            <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                                <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#gallery"> 
+                                    <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i>
+                                    <span class="text-capitalize">gallery</span>
+                                </a>
+                                <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#services">
+                                    <span class="text-capitalize">services</span>
+                                    <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============ FIN DE SECCIÓN ABOUT (LÍNEA 300) ============ -->
+     <!-- ============================================-->
+    </main>
+<!-- SECCIÓN SERVICES (Línea 301)                 -->
+<!-- ============================================-->
+<section class="p-0 page d-none" id="services">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Contenido principal (75% ancho) -->
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-8 pt-lg-0 pb-0 px-lg-0">
+                
+                <!-- Tarjeta de servicios destacados -->
+                <div class="row min-vh-25 flex-center">
+                    <div class="col-lg-10">
+                        <div class="card card-span">
+                            <!-- Fondo decorativo -->
+                            <div class="bg-holder bg-size" style="background-image:url(assets/img/services/services-card-bg.png);background-position:top center;background-size:cover;border-end-end-radius:5.5rem;border-end-start-radius:5.5rem;">
+                            </div>
+                            
+                            <!-- Contenido de servicios -->
+                            <div class="card-body position-relative">
+                                <div class="text-center my-3">
+                                    <h2 class="fs-1 fs-md-2 fs-lg-3">What We Do Best</h2>
+                                    
+                                    <!-- Servicio 1: Desarrollo -->
+                                    <div class="row flex-center">
+                                        <div class="col-xl-9 col-xxl-8 my-6">
+                                            <div class="d-sm-flex flex-center">
+                                                <img alt="services" class="order-0 pe-4" src="assets/img/services/development.png"/>
+                                                <div class="flex-1 text-center text-sm-start">
+                                                    <h3 class="mb-3 fw-bolder text-gradient-orange-1">Development</h3>
+                                                    <p class="mb-0 text-1200">Our award-winning team follow industry best practices to develop software.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Servicio 2: Diseño -->
+                                        <div class="col-xl-9 col-xxl-8 my-6">
+                                            <div class="d-sm-flex flex-center">
+                                                <img alt="services" class="order-1 ps-4" src="assets/img/services/design.png"/>
+                                                <div class="flex-1 text-center text-sm-start">
+                                                    <h3 class="mb-3 fw-bolder text-gradient-pink-1">Design</h3>
+                                                    <p class="mb-0 text-1200">Our unique tools design graphics &amp; HTML5 templates 4X faster than our rivals.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Servicio 3: Aplicaciones -->
+                                        <div class="col-xl-9 col-xxl-8 my-6">
+                                            <div class="d-sm-flex flex-center">
+                                                <img alt="services" class="order-0 pe-4" src="assets/img/services/application.png"/>
+                                                <div class="flex-1 text-center text-sm-start">
+                                                    <h3 class="mb-3 fw-bolder text-gradient-blue">Application</h3>
+                                                    <p class="mb-0 text-1200">Having the shortest possible delay between idea and launch is crucial in business.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================-->
+                <!-- Planes de precios (Línea 350)               -->
+                <!-- ============================================-->
+                <div class="row py-7 justify-content-center">
+                    <h2 class="mb-4 text-center"><span class="fw-medium">Choose </span>Your Plan</h2>
+                    
+                    <!-- Plan Básico -->
+                    <div class="col-sm-6 col-xl-4 pt-4 px-md-2">
+                        <div class="card card-span h-100 bg-white" style="border-radius:1rem;">
+                            <div class="card-body d-flex flex-column justify-content-around px-xl-4 px-xxl-5">
+                                <div class="text-center">
+                                    <h2 class="fs-lg-2 fx-xxl-4 text-800 my-3">Basic</h2>
+                                    <h2 class="mb-3 fs-lg-2 fs-xxl-4 text-gradient-blue">$20<span class="text-gradient-gray fs-1">/ monthly</span></h2>
+                                </div>
+                                <ul class="list-unstyled my-4 ps-5 ps-lg-0 ps-xl-2 ps-xxl-5">
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Unlimited Access</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Encrypted Data</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>No Traffic Logs</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Works on All Devices</li>
+                                </ul>
+                                <div class="text-center">
+                                    <div class="d-grid">
+                                        <button class="btn btn-klean-outline border-0" type="submit"> <span class="text-gradient-blue">Purchase</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Plan Avanzado (Destacado) -->
+                    <div class="col-sm-6 col-xl-4 pt-4 px-md-2">
+                        <div class="card card-span h-100 bg-pricing-gradient" style="border-radius:1rem;">
+                            <div class="card-body d-flex flex-column justify-content-around px-xl-4 px-xxl-5">
+                                <div class="text-center">
+                                    <h2 class="fs-lg-2 fx-xxl-4 text-800 my-3">Advanced</h2>
+                                    <h2 class="mb-3 fs-lg-2 fs-xxl-4 text-gradient-pink-2">$50<span class="text-gradient-gray fs-1">/ monthly</span></h2>
+                                </div>
+                                <ul class="list-unstyled my-4 ps-5 ps-lg-0 ps-xl-2 ps-xxl-5">
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>All Basic Features</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Advanced Analytics</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Traffic Logs</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Priority Support</li>
+                                </ul>
+                                <div class="text-center">
+                                    <div class="d-grid">
+                                        <button class="btn btn-pricing-danger border-0" type="submit">Purchase</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Plan Business -->
+                    <div class="col-sm-6 col-xl-4 pt-4 px-md-2">
+                        <div class="card card-span h-100 bg-white" style="border-radius:1rem;">
+                            <div class="card-body d-flex flex-column justify-content-around px-xl-4 px-xxl-5">
+                                <div class="text-center">
+                                    <h2 class="fs-lg-2 fx-xxl-4 text-800 my-3">Business</h2>
+                                    <h2 class="mb-3 fs-lg-2 fs-xxl-4 text-gradient-blue">$30<span class="text-gradient-gray fs-1">/ monthly</span></h2>
+                                </div>
+                                <ul class="list-unstyled my-4 ps-5 ps-lg-0 ps-xl-2 ps-xxl-5">
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>All Advanced Features</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Team Collaboration</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>API Access</li>
+                                    <li class="mb-3"><span class="me-2"><i class="fas fa-check-circle"></i></span>Custom Solutions</li>
+                                </ul>
+                                <div class="text-center">
+                                    <div class="d-grid">
+                                        <button class="btn btn-klean-outline border-0" type="submit"> <span class="text-gradient-blue">Purchase</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================-->
+                <!-- Clientes destacados (Línea 450)              -->
+                <!-- ============================================-->
+                <div class="row pt-7 flex-center">
+                    <div class="col-xl-9">
+                        <div class="row">
+                            <h2 class="text-center mb-6"><span class="fw-medium">Our </span>Valuable Clients</h2>
+                            <!-- Logos de clientes en grid 3x2 -->
+                            <div class="col-6 col-sm-4 text-center mb-4"><img alt="Mailbluster" class="img-fluid" src="assets/img/brands/mailbluster.png"/></div>
+                            <div class="col-6 col-sm-4 text-center mb-4"><img alt="Netflix" class="img-fluid" src="assets/img/brands/netflix.png"/></div>
+                            <div class="col-6 col-sm-4 text-center mb-4"><img alt="Google" class="img-fluid" src="assets/img/brands/google.png"/></div>
+                            <div class="col-6 col-sm-4 text-center mb-4"><img alt="ThemeWagon" class="img-fluid" src="assets/img/brands/theme-wagon.png"/></div>
+                            <div class="col-6 col-sm-4 text-center mb-4"><img alt="Cerwin" class="img-fluid" src="assets/img/brands/cerwin.png"/></div>
+                            <div class="col-6 col-sm-4 text-center mb-4"><img alt="Microsoft" class="img-fluid" src="assets/img/brands/microsoft.png"/></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============================================-->
+                <!-- Llamada a la acción (Línea 500)             -->
+                <!-- ============================================-->
+                <div class="row justify-content-center pt-3d">
+                    <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8">
+                        <div class="card bg-backdrop">
+                            <div class="card-body p-2 px-lg-2 px-xl-5">
+                                <div class="py-5 text-center">
+                                    <h2 class="fs-1 fs-xxl-2 fw-bolder">Start your next project with us</h2>
+                                    <p class="mb-4 text-900">Join the talented group of artists and imaginators</p>
+                                    <a class="btn hover-top btn-boots-purple" href="#!">Join Boots5 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <img alt="Call to action" class="w-100" src="assets/img/cta/cta-services.png" style="border-radius:1rem;"/>
+                    </div>
+                </div>
+
+                <!-- ============================================-->
+                <!-- Footer de sección (Línea 550)                -->
+                <!-- ============================================-->
+                <div class="row justify-content-center my-3">
+                    <div class="col-12 col-lg-10">
+                        <div class="card bg-soft-danger">
+                            <div class="card-body py-3">
+                                <div class="row">
+                                    <div class="col-lg-6 text-center text-lg-start">
+                                        <p class="fs--1 my-2 fw-bold text-gradient-danger-soft">All rights Reserved © Your Company, 2021</p>
+                                    </div>
+                                    <div class="col-lg-6 d-lg-flex align-self-center justify-content-end text-center">
+                                        <p class="fs--1 mb-0 text-gradient-danger-soft">Made with <span class="fas fa-heart mx-1 text-danger"></span>by<a href="https://themewagon.com/"> Themewagon</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================-->
+            <!-- Barra lateral derecha (Línea 580)            -->
+            <!-- ============================================-->
+            <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(assets/img/sidebars/services.png);">
+                    </div>
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4">Services</h1>
+                        <img alt="icon" class="d-none d-lg-block line-icons mt-5" src="assets/img/lineicons/thunder-bolt.png"/>
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25"/>
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#about"> 
+                                <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i>
+                                <span class="text-capitalize">about</span>
+                            </a>
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#contact">
+                                <span class="text-capitalize">contact</span>
+                                <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>    
+    </section>
+    <!-- ============ FIN DE SECCIÓN SERVICES (LÍNEA 600) ============ -->
+     <!-- ============================================-->
+<!-- SECCIÓN PORTFOLIO (Línea 601)               -->
+<!-- ============================================-->
+<section class="p-0 page d-none" id="portfolio">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Contenido principal (75% ancho) -->
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-8 pt-xl-7 pt-xxl-8 pb-0">
+                
+                <!-- Galería de proyectos -->
+                <div class="row flex-center">
+                    <div class="col-lg-10 col-xl-7">
+                        <!-- Título y filtros -->
+                        <div class="text-center mb-5 mb-lg-6">
+                            <h2><span class="fw-medium">Our</span> Latest Works</h2>
+                        </div>
+                        
+                        <!-- Filtros tipo isotópico -->
+                        <div class="mb-5 sortable" data-filter-nav="data-filter-nav">
+                            <ul class="nav menu justify-content-center mb-2" data-filter-nav="data-filter-nav">
+                                <li class="nav-item ls">
+                                    <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none active" data-filter="*">
+                                        <i class="fas fa-th fs-0 me-2"></i>All
+                                    </div>
+                                </li>
+                                <li class="nav-item ls me-2">
+                                    <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none" data-filter=".photography">
+                                        <i class="fas fa-camera fs-0 me-2"></i>Photography
+                                    </div>
+                                </li>
+                                <li class="nav-item ls">
+                                    <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none" data-filter=".studio">
+                                        <i class="fas fa-lightbulb fs-0 me-2"></i>Studio
+                                    </div>
+                                </li>
+                                <li class="nav-item ls">
+                                    <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none" data-filter=".interior">
+                                        <i class="fas fa-home fs-0 me-2"></i>Interior
+                                    </div>
+                                </li>
+                                <li class="nav-item ls">
+                                    <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none" data-filter=".illustration">
+                                        <i class="fas fa-pen fs-0 me-2"></i>Illustration
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Grid de proyectos (Masonry) -->
+                        <div class="row g-2 mt-2" data-isotope="{&quot;layoutMode&quot;:&quot;packery&quot;}" id="portfolio-gallery">
+                            
+                            <!-- Proyecto 1 - Interior -->
+                            <div class="col-6 masonry-item interior">
+                                <div class="card hoverbox overflow-hidden">
+                                    <img alt="Interior Design Project" class="img-fluid" src="assets/img/projects/portfolio-1.png"/>
+                                    <div class="card-img-overlay">
+                                        <div class="px-4 hoverbox-content d-flex flex-column flex-center">
+                                            <a class="stretched-link" data-bs-target="#modalFullscreen" data-bs-toggle="modal" href="#">
+                                                <i class="fas fa-eye fs-2 text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Proyecto 2 - Photography -->
+                            <div class="col-6 col-md-3 masonry-item photography">
+                                <div class="card hoverbox overflow-hidden">
+                                    <img alt="Photography Session" class="img-fluid" src="assets/img/projects/portfolio-2.png"/>
+                                    <div class="card-img-overlay">
+                                        <div class="px-4 hoverbox-content d-flex flex-column flex-center">
+                                            <a class="stretched-link" data-bs-target="#modalFullscreen" data-bs-toggle="modal" href="#">
+                                                <i class="fas fa-eye fs-2 text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Proyecto 3 - Photography -->
+                            <div class="col-6 col-md-3 masonry-item photography">
+                                <div class="card hoverbox overflow-hidden">
+                                    <img alt="Urban Photography" class="img-fluid" src="assets/img/projects/portfolio-3.png"/>
+                                    <div class="card-img-overlay">
+                                        <div class="px-4 hoverbox-content d-flex flex-column flex-center">
+                                            <a class="stretched-link" data-bs-target="#modalFullscreen" data-bs-toggle="modal" href="#">
+                                                <i class="fas fa-eye fs-2 text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Proyecto 4 - Studio -->
+                            <div class="col-6 masonry-item studio">
+                                <div class="card hoverbox overflow-hidden">
+                                    <img alt="Studio Project" class="img-fluid" src="assets/img/projects/portfolio-4.png"/>
+                                    <div class="card-img-overlay">
+                                        <div class="px-4 hoverbox-content d-flex flex-column flex-center">
+                                            <a class="stretched-link" data-bs-target="#modalFullscreen" data-bs-toggle="modal" href="#">
+                                                <i class="fas fa-eye fs-2 text-light"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Más proyectos... (hasta línea 750) -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Llamada a la acción -->
+                <div class="row justify-content-center pt-3d">
+                    <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8">
+                        <div class="card bg-backdrop">
+                            <div class="card-body p-2 px-lg-2 px-xl-5">
+                                <div class="py-5 text-center">
+                                    <h2 class="fs-1 fs-xxl-2 fw-bolder">Start your next project with us</h2>
+                                    <p class="mb-4 text-900">Join the talented group of artists and imaginators</p>
+                                    <a class="btn hover-top btn-boots-warning" href="#!">Join Boots5 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <img alt="Portfolio CTA" class="w-100" src="assets/img/cta/cta-portfolio.png" style="border-radius:1rem;"/>
+                    </div>
+                </div>
+                
+                <!-- Footer de sección -->
+                <div class="row justify-content-center my-3">
+                    <div class="col-12 col-lg-10">
+                        <div class="card bg-soft-pink">
+                            <div class="card-body py-3">
+                                <div class="row">
+                                    <div class="col-lg-6 text-center text-lg-start">
+                                        <p class="fs--1 my-2 fw-bold text-gradient-pink-soft">All rights Reserved © Your Company, 2021</p>
+                                    </div>
+                                    <div class="col-lg-6 d-lg-flex align-self-center justify-content-end text-center">
+                                        <p class="fs--1 mb-0 text-gradient-pink-soft">Made with <span class="fas fa-heart mx-1 text-secondary"></span>by<a href="https://themewagon.com/"> Themewagon</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Barra lateral derecha -->
+            <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(assets/img/sidebars/portfolio.png);">
+                    </div>
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4">Portfolio</h1>
+                        <img alt="icon" class="d-none d-lg-block line-icons mt-5" src="assets/img/lineicons/trophy.png"/>
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25"/>
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#contact"> 
+                                <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i>
+                                <span class="text-capitalize">contact</span>
+                            </a>
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#faq">
+                                <span class="text-capitalize">faq</span>
+                                <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ============================================-->
+    <!-- SECCIÓN CONTACT (Línea 850)                -->
+    <!-- ============================================-->
+    <section class="page p-0 d-none" id="contact">
+        <div class="container-fluid">
+            <div class="top-0 w-100">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-6 pt-lg-0">
+                        <section class="pt-8 pt-xl-7 pt-xxl-8 pb-0">
+                            <!-- Fondo decorativo -->
+                            <div class="bg-holder bg-size" style="background-image:url(assets/img/contact-bg.png);background-position:left center;background-size:auto;">
+                            </div>
+                            
+                            <!-- Contenido principal -->
+                            <div class="container-fluid">
+                                <div class="row justify-content-center pb-5">
+                                    <div class="col-sm-9 col-lg-6">
+                                        <!-- Encabezado -->
+                                        <div class="text-center mb-5 mb-lg-6">
+                                            <h2><span class="fw-medium">Get In </span>Touch</h2>
+                                        </div>
+                                        
+                                        <!-- Información de contacto -->
+                                        <h4>Connect with us</h4>
+                                        <p class="mb-7">Having the shortest possible delay between idea and launch is crucial<br class="d-none d-xxl-block"/>in business.</p>
+                                        
+                                        <!-- Teléfono -->
+                                        <div class="d-flex align-items-center mb-2">
+                                            <div class="icon icon-warning shadow-1"><i class="fas fa-phone fs-1"></i></div>
+                                            <div class="flex-1 ms-3">
+                                                <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:+880124332334">+880124332334</a></p>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Email -->
+                                        <div class="d-flex align-items-center mb-2">
+                                            <div class="icon icon-warning shadow-2"><i class="fas fa-envelope fs-1"></i></div>
+                                            <div class="flex-1 ms-3">
+                                                <p class="fw-bold mb-0 text-gradient-orange-2"><a href="mailto:mail.something@email.com">mail.something@email.com</a></p>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Dirección -->
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon icon-warning fs-2 shadow-3"><i class="fas fa-map-marker-alt"></i></div>
+                                            <div class="flex-1 ms-3">
+                                                <p class="fw-bold text-gradient-orange-3 mb-0">35 King Street Bristol, BS1 4DZ, Perks Heights</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr class="my-6 text-200"/>
+                                        
+                                        <!-- Redes sociales -->
+                                        <div class="text-center mb-5 mb-lg-6">
+                                            <h2 class="mb-5">Follow Us</h2>
+                                            <ul class="list-unstyled list-inline">
+                                                <li class="list-inline-item mx-2"><a href="#!"><img alt="Facebook" src="assets/img/icons/facebook.png"/></a></li>
+                                                <li class="list-inline-item mx-2"><a href="#!"><img alt="Twitter" src="assets/img/icons/twitter.png"/></a></li>
+                                                <li class="list-inline-item mx-2"><a href="#!"><img alt="YouTube" src="assets/img/icons/youtube.png"/></a></li>
+                                                <li class="list-inline-item mx-2"><a href="#!"><img alt="LinkedIn" src="assets/img/icons/linkdin.png"/></a></li>
+                                                <li class="list-inline-item mx-2"><a href="#!"><img alt="Google+" src="assets/img/icons/google-plus.png"/></a></li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <hr class="my-6 text-200"/>
+                                        
+                                        <!-- Formulario de contacto -->
+                                        <h4>Drop us a line</h4>
+                                        <p class="mb-7">Our team are eagerly waiting to help you growing your business. Please feel free to contact with us.</p>
+                                        <form class="row g-4" data-form="data-form" onsubmit="return false">
+                                            <!-- Campo Nombre -->
+                                            <label class="form-label text-700" for="inputName">
+                                                <i class="fas fa-user me-2"></i>NAME
+                                            </label>
+                                            <input class="form-control form-boots-control mt-0" id="inputName" name="name" type="text"/>
+                                            
+                                            <!-- Campo Email -->
+                                            <label class="form-label text-700" for="inputEmail4">
+                                                <i class="fas fa-envelope me-2"></i>YOUR EMAIL
+                                            </label>
+                                            <input class="form-control form-boots-control mt-0" id="inputEmail4" name="email" type="email"/>
+                                            
+                                            <!-- Campo Mensaje -->
+                                            <label class="form-label text-700" for="validationTextarea">
+                                                <i class="fas fa-pen me-2"></i>MESSAGE
+                                            </label>
+                                            <textarea class="form-control is-invalid border-400 form-boots-control mt-0" cols="50" id="validationTextarea" name="message" placeholder="Message" required="required" rows="6"></textarea>
+                                            
+                                            <!-- Botón de enviar -->
+                                            <button class="btn btn-boots-warning w-100 mt-5" type="submit">Send</button>
+                                            <div class="feedback"></div>
+                                        </form>
+                                    </div>
+                                </div>
+<!-- ============ FIN DEL FRAGMENTO (LÍNEA 900) ============ -->
+ <!-- ============================================-->
+<!-- Mapa Google (Línea 900)                      -->
+<!-- ============================================-->
+<div class="row justify-content-center mt-4 py-3">
+    <div class="col-12 col-lg-10">
+        <div class="rounded googlemap min-vh-50" data-gmap="data-gmap" 
+             data-icon="assets/img/map-marker.png" 
+             data-latlng="48.8583701,2.2922873,17" 
+             data-scrollwheel="false" 
+             data-theme="Default" 
+             data-zoom="17">
+            
+            <!-- InfoWindow del marcador -->
+            <div class="marker-content py-3">
+                <h5>Eiffel Tower</h5>
+                <p>Gustave Eiffel's iconic, wrought-iron 1889 tower,<br/>with steps and elevators to observation decks.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================-->
+<!-- Footer de Contact (Línea 920)               -->
+<!-- ============================================-->
+<div class="row justify-content-center my-3">
+    <div class="col-12 col-lg-10">
+        <div class="card bg-soft-orange-1">
+            <div class="card-body py-3">
+                <div class="row">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <p class="fs--1 my-2 fw-bold text-gradient-orange-soft-1">All rights Reserved © Your Company, 2021</p>
+                    </div>
+                    <div class="col-lg-6 d-lg-flex align-self-center justify-content-end text-center">
+                        <p class="fs--1 mb-0 text-gradient-orange-soft-1">Made with <span class="fas fa-heart mx-1 text-warning"></span>by<a href="https://themewagon.com/"> Themewagon</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+</div>
+
+<!-- ============================================-->
+<!-- Barra lateral derecha de Contact (Línea 950) -->
+<!-- ============================================-->
+<div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
+    <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+        <div class="btn-close-boots-container times">
+            <div class="btn-close-boots"></div>
+        </div>
+        <div class="bg-holder sidebar-rounded" style="background-image:url(assets/img/sidebars/contact.png);">
+        </div>
+        <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+            <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4">Contact</h1>
+            <img alt="icon" class="d-none d-lg-block line-icons mt-5" src="assets/img/lineicons/map.png"/>
+            <hr class="my-4 w-100 d-none d-lg-block opacity-25"/>
+            <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#services"> 
+                    <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i>
+                    <span class="text-capitalize">services</span>
+                </a>
+                <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#portfolio">
+                    <span class="text-capitalize">portfolio</span>
+                    <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ============================================-->
+<!-- SECCIÓN FAQ (Línea 1000)                    -->
+<!-- ============================================-->
+<!-- ❓ SECCIÓN FAQ - PREGUNTAS FRECUENTES -->
+<section class="p-0 page d-none" id="faq">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 📜 CONTENIDO PRINCIPAL (Izquierda) -->
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-7 pt-xxl-8 pb-0">
+                <div class="row flex-center">
+                    <div class="col-11 col-xl-6">
+                        <!-- 🏷️ TÍTULO DE LA SECCIÓN -->
+                        <div class="text-center mb-5 mb-lg-6">
+                            <h2><span class="fw-medium">Frequently Asked </span> Questions</h2>
+                        </div>
+
+                        <!-- 📑 ACORDEÓN DE PREGUNTAS -->
+                        <div class="accordion mt-8" id="accordionExample">
+                            <!-- ❔ PREGUNTA 1 -->
+                            <div class="accordion-item">
+                                <div class="my-3 border-start border-3">
+                                    <h2 class="accordion-header" id="heading1">
+                                        <!-- 🔘 BOTÓN DE LA PREGUNTA -->
+                                        <button class="accordion-button px-4 py-0 text-1000" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            <span class="mb-0 fw-bold text-start fs-1 px-2">What is Boots5?</span>
+                                        </button>
+                                    </h2>
+                                    <!-- 📦 CONTENIDO DE LA RESPUESTA -->
+                                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body pt-3 px-4 text-justify">
+                                            Boots5 is a premium Bootstrap 5 template... (texto descriptivo).
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ❔ PREGUNTA 2 (estructura similar) -->
+                            <div class="accordion-item">
+                                <!-- ... -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🚀 CALL-TO-ACTION (Iniciar proyecto) -->
+                <div class="row justify-content-center pt-3d">
+                    <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8">
+                        <div class="card bg-backdrop">
+                            <div class="card-body p-2 px-lg-2 px-xl-5">
+                                <div class="py-5 text-center">
+                                    <h2 class="fs-1 fs-xxl-2 fw-bolder">Start your next project with us</h2>
+                                    <a class="btn hover-top btn-boots-warning" href="#!">Join Boots5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🎨 BARRA LATERAL DERECHA (Diseño visual) -->
+            <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area">
+                    <!-- 🔍 CONTENIDO DE LA BARRA LATERAL -->
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(assets/img/sidebars/faq.png);"></div>
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical opacity-50 fs-xl-3 fs-xxl-4">FAQ</h1>
+                        <!-- 🔗 NAVEGACIÓN ENTRE SECCIONES -->
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#portfolio">
+                                <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i>
+                                <span class="text-capitalize">portfolio</span>
+                            </a>
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#gallery">
+                                <span class="text-capitalize">gallery</span>
+                                <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 🖼️ SECCIÓN GALLERY - GALERÍA DE IMÁGENES INTERACTIVA -->
+<section class="p-0 page d-none" id="gallery">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 📸 COLUMNA PRINCIPAL (Contenido interactivo) -->
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-xl-7 pt-xxl-8 pb-0">
+                <div class="row min-vh-25 flex-center">
+                    <div class="col-lg-10">
+                        <!-- 🏷️ TÍTULO DE LA SECCIÓN -->
+                        <div class="text-center mb-5 mb-lg-6">
+                            <h2><span class="fw-medium">Photos </span>we took</h2>
+                        </div>
+
+                        <!-- ============================================ -->
+                        <!-- 🖱️ PRIMER CARRUSEL (Swiper) -->
+                        <section class="py-3" id="swiper">
+                            <div class="container-fluid">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-10 col-xl-8">
+                                        <!-- 🔄 Contenedor Swiper con autoplay y loop -->
+<div class="swiper-container theme-slider gallerySwiper" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:3000},&quot;loop&quot;:true,&quot;slideToClickedSlide&quot;:true,&quot;effect&quot;:&quot;fade&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true}}"
+>
+                                            <div class="swiper-wrapper h-100">
+                                                <!-- 🖼️ Slide 1 -->
+                                                <div class="swiper-slide h-100">
+                                                    <div class="card h-100">
+                                                        <img class="img-fluid" src="assets/img/gallery/gallery-1.png" alt="Descripción imagen 1"/>
+                                                        <div class="card-body px-2">
+                                                            <h5 class="my-3 text-center">Why do you use?</h5>
+                                                            <p>Texto descriptivo sobre la imagen...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- 🖼️ Slide 2 -->
+                                                <div class="swiper-slide h-100">...</div>
+                                            </div>
+                                            <!-- 🔘 Puntos de paginación -->
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 🖼️ GRID DE IMÁGENES (2 columnas) -->
+                                <div class="row justify-content-between mt-5">
+                                    <!-- Columna izquierda -->
+                                    <div class="col-sm-6 my-sm-6 border-lg-end pe-sm-5">
+                                        <img class="img-fluid" src="assets/img/gallery/gallery-2.png" alt="Product Photography"/>
+                                        <h5 class="mb-2 mt-4">Product Photography</h5>
+                                        <p>Descripción detallada...</p>
+                                        <!-- Más imágenes/texto... -->
+                                    </div>
+                                    <!-- Columna derecha -->
+                                    <div class="col-sm-6 my-sm-6 border-lg-start ps-sm-5">
+                                        <img class="img-fluid" src="assets/img/gallery/gallery-3.png" alt="Features"/>
+                                        <h5 class="mb-2 mt-4">Features</h5>
+                                        <p>Descripción detallada...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ============================================ -->
+                        <!-- 🖱️ SEGUNDO CARRUSEL (Ejemplo adicional) -->
+                        <section class="py-3">
+                            <div class="container-fluid">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-10 col-xl-8">
+                                        <div class="swiper-container theme-slider gallerySwiper" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:3000},&quot;loop&quot;:true,&quot;slideToClickedSlide&quot;:true,&quot;effect&quot;:&quot;fade&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true}}"
+>
+                                            <div class="swiper-wrapper">
+                                                <!-- Slides adicionales... -->
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- 🚀 CALL-TO-ACTION (Iniciar proyecto) -->
+                <div class="row justify-content-center pt-3d">
+                    <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8">
+                        <div class="card bg-backdrop">
+                            <div class="card-body p-2 px-lg-2 px-xl-5">
+                                <div class="py-5 text-center">
+                                    <h2 class="fs-1 fs-xxl-2 fw-bolder">Start your next project with us</h2>
+                                    <a class="btn hover-top btn-boots-warning" href="#!">Join Boots5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🎨 BARRA LATERAL DERECHA (Diseño visual) -->
+            <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area">
+                    <!-- 🖌️ Fondo decorativo -->
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(assets/img/sidebars/gallery.png);"></div>
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <!-- 📛 Título vertical -->
+                        <h1 class="text-white text-vertical opacity-50 fs-xl-3 fs-xxl-4">Gallery</h1>
+                        <!-- 📷 Ícono temático -->
+                        <img class="d-none d-lg-block line-icons mt-5" src="assets/img/lineicons/camera.png" alt="Ícono cámara"/>
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25"/>
+                        <!-- 🔗 NAVEGACIÓN ENTRE SECCIONES -->
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#faq">
+                                <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i>
+                                <span class="text-capitalize">faq</span>
+                            </a>
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#about">
+                                <span class="text-capitalize">about</span>
+                                <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ===============================================-->
+<!--    JavaScripts (Recursos externos y scripts)    -->
+<!-- ===============================================-->
+<script src="vendors/popper/popper.min.js"></script>
+<script src="vendors/bootstrap/bootstrap.min.js"></script>
+<script src="vendors/anchorjs/anchor.min.js"></script>
+<script src="vendors/is/is.min.js"></script>
+<script src="vendors/fontawesome/all.min.js"></script>
+<script src="vendors/lodash/lodash.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+<script src="vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+<script src="vendors/prism/prism.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL"></script>
+<script src="vendors/swiper/swiper-bundle.min.js"></script>
+<script src="vendors/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="vendors/isotope-packery/packery-mode.pkgd.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&amp;callback=initMap" async defer></script>
+<script src="vendors/countup/countUp.umd.js"></script>
+<script src="vendors/bigpicture/BigPicture.js"></script>
+</body>
+</html>

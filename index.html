@@ -28,6 +28,7 @@
 <!-- ===============================================-->
 <link href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+    <!-- Librerías CSS -->
 <link href="vendors/prism/prism.css" rel="stylesheet"/>
 <link href="assets/css/theme.css" rel="stylesheet">
 <link href="assets/css/user.css" rel="stylesheet">
@@ -55,12 +56,14 @@
 <div class="offcanvas-body d-logo-flex flex-column flex-center h-sm-25vh h-lg-50vh">
 <div class="row justify-content-center">
 <div class="col-11 col-sm-9 col-lg-10 col-xxl-10 text-center">
+                    <!-- Logo y nombre de la notaría -->
 <a href="index.html">
 <div class="text-center mb-lg-4">
 <h2 class="fs-1 fs-sm-2"> <span class="text-900">Notaría de </span>Inmaculada Espiñeira Soto</h2>
 <hr class="my-2 text-500"/>
 </div>
 </a>
+                    <!-- Imagen del logo (con versión WebP para navegadores modernos) -->
 <a aria-label="Escudo Notarial" href="index.html">
 <picture>
 <source srcset="assets/img/logos/logo.webp" type="image/webp"/>
@@ -68,6 +71,7 @@
 </picture>
 </a>
 <hr class="my-2 text-500"/>
+                    <!-- Información de contacto -->
 <h2 class="fs-1 fs-sm-2">Rúa Senra 1 </h2>
 <h2 class="fs-1 fs-sm-1"> <a href="tel:981552153"><i class="fa fa-phone"></i> 981 552 153</a></h2>
 <h2 class="fs-1 fs-sm-2">Santiago de Compostela</h2>
@@ -79,31 +83,40 @@
 <div class="offcanvas offcanvas-end home-nav show" data-base-content="nav" data-bs-backdrop="false" data-bs-scroll="true" id="offcanvasEnd" tabindex="-1">
 <div class="offcanvas-body p-0 position-lg-fixed position-relative">
 <div class="row vh-lg-100 g-0">
-<div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-height nav-blue-soft"><img alt="..." class="nav-img h-100" src="assets/img/navigation/about.jpg"/>
+                <!-- Cada elemento del menú usa la misma estructura -->
+                
+                <!-- 1. About -->
+                <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-blue-soft">
+                    <img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
 <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
 <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#about">Notaría</a>
 </div>
 </div>
+<!-- 2. Services -->
 <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-height nav-blue-dark"><img alt="..." class="nav-img h-100" src="assets/img/navigation/service.jpg"/>
 <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
 <a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#services">Servicios</a>
 </div>
 </div>
+<!-- 3. Portfolio -->
 <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-height nav-cyan-soft"><img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
 <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
 <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/trophy-6-2.png"/></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#portfolio">Portfolio</a>
 </div>
 </div>
+<!-- 4. Contact -->
 <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-height nav-cyan-dark"><img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
 <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
 <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/map-6-2.png"/></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#contact">Contact</a>
 </div>
 </div>
+<!-- 5. FAQ -->
 <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-height nav-green-soft"><img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
 <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
 <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/bubble-6-2.png"/></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#faq">FAQ</a>
 </div>
 </div>
+<!-- 6. Gallery -->
 <div class="col-6 col-md-4 col-lg-6 position-relative text-white nav-hover-zoom nav-height nav-green-dark"><img alt="..." class="nav-img h-100" src="assets/img/navigation/nav-6-2.png"/>
 <div class="card-img-overlay d-flex flex-column flex-sm-row flex-center justify-content-xxl-start h-100 px-4 px-md-5">
 <div class="mb-3"> <img alt="icon" class="nav-icons" src="assets/img/lineicons/camera-6-2.png"/></div><a class="text-light fs-1 fs-xl-2 fs-xxl-3 stretched-link items fw-bold text-decoration-none ps-sm-4" href="#gallery">Gallery</a>
@@ -118,14 +131,17 @@
 <section class="p-0 page d-none" id="about">
 <div class="container-fluid">
 <div class="row justify-content-center">
+                <!-- Contenido principal (75% ancho) -->
 <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-8 pt-xl-7 pt-xxl-8 pb-0 px-lg-0">
 <div class="row flex-center" id="bigpicture">
 <div class="col-11 col-xl-7">
+                            <!-- Título principal -->
 <div class="text-center mb-5 mb-lg-6">
 <h2><span class="fw-medium">The Story of </span> Boots5</h2>
 </div>
 <div class="position-relative"> <img alt="..." class="img-fluid rounded-3" src="assets/img/rainbow.png"/><a class="player" data-bigpicture="{&quot;ytSrc&quot;:&quot;eXkYd1bbu3Q&quot;}"
     href="#!"> <img alt="..." src="assets/img/player.png"/></a></div>
+<!-- Video destacado con imagen de placeholder -->
 <h3 class="pb-4 pt-5">To Infinity and Beyond! </h3>
 <p class="text-1000 fs-1">
                     At Boots5, we believe there is a way where customers are earned rather thanbought. We're obsessively passionate about it, and our mission is to help you
@@ -134,6 +150,7 @@
 <p class="text-800 mb-5">Boots5 was founded by ThemeWagon Team in 1896. It was called the world's first bootstrap four<br/>template, and started as a Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam illo, magni <br/>aut recusandae perspiciatis quam sed eveniet, debitis tempore natus corrupti nostrum deserunt,<br/>harum in dolor dolorem sit voluptatum iusto. recusandae perspiciatis quam sed eveniet, debitis <br/>tempore natus corrupti nostrum recusandae perspiciatis quam sed eveniet, debitis tempore. </p>
 <!-- 🎲 BLOQUE DE ESTADÍSTICAS DIVERTIDAS -->
 <div class="row flex-center pt-3 g-xxl-5" id="fun-facts">
+                                <!-- Estadística 1: Líneas de código -->
 <div class="col-12 col-sm-4 mb-4 h-100">
 <div class="card card-span h-100 card-bg-line">
 <div class="card-body py-8 d-flex flex-center"><img alt="..." class="shadow-icon-1" src="assets/img/code.png"/></div>
@@ -141,7 +158,8 @@
 <h1 class="fs-lg-2 fs-xxl-4 mt-3 fw-bold text-center text-gradient-blue" data-countup="{&quot;endValue&quot;:64973}">0</h1>
 <!--<h1 class="fs-lg-2 fs-xxl-4 mt-3 fw-bold text-center text-gradient-blue" data-countup='{"endValue":64973}'>0</h1>-->
 <p class="text-900 fw-bold text-center fs-xxl-1">Lines Of Code</p>
-</div>
+</div>                             
+<!-- Estadística 2: Tazas de café -->
 <div class="col-12 col-sm-4 mb-4 h-100">
 <div class="card card-span h-100 card-bg-coffee">
 <div class="card-body py-8 d-flex flex-center"><img alt="..." class="shadow-icon-2" src="assets/img/coffee.png"/></div>
@@ -150,6 +168,7 @@
 >0</h1>
 <p class="text-900 fw-bold text-center fs-xxl-1">Cups of Coffee</p>
 </div>
+<!-- Estadística 3: Descargas -->
 <div class="col-12 col-sm-4 mb-4 h-100">
 <div class="card card-span h-100 card-bg-download">
 <div class="card-body py-8 d-flex flex-center"><img alt="..." class="shadow-icon-3" src="assets/img/download.png"/></div>
@@ -159,30 +178,35 @@
 <p class="text-900 fw-bold text-center fs-xxl-1">Download</p>
 </div>
 </div>
+<!-- Equipo de trabajo -->
 <div class="row justify-content-center pt-6 g-2">
 <div class="text-center mb-5 mb-lg-6">
 <h2 class="fs-2 fs-sm-3"> <span class="fw-medium">Meet  </span>Our Team</h2>
 </div>
 <div class="col-lg-11 col-xxl-9">
 <div class="row justify-content-center">
+                                        <!-- Miembro 1 -->
 <div class="col-6 mb-5">
 <div class="position-relative d-flex flex-center flex-column"><img alt="" class="img-fluid rounded-circle" src="assets/img/team/1.jpg" width="242"/>
 <h5 class="fw-bold mt-3 mb-1">Alex Butler</h5>
 <h5 class="fw-normal text-800 mb-1">Fraud Manager</h5><a class="stretched-link" href="#!"></a>
 </div>
 </div>
+<!-- Miembro 2 -->
 <div class="col-6 mb-5">
 <div class="position-relative d-flex flex-center flex-column"><img alt="" class="img-fluid rounded-circle" src="assets/img/team/2.jpg" width="242"/>
 <h5 class="fw-bold mt-3 mb-1">Andreas Heim</h5>
 <h5 class="fw-normal text-800 mb-1">Software Engineer</h5><a class="stretched-link" href="#!"></a>
 </div>
 </div>
+<!-- Miembros 3-8 (versión compacta) -->
 <div class="col-6 col-sm-4 col-auto mb-5">
 <div class="position-relative d-flex flex-center flex-column"><img alt="" class="img-fluid rounded-circle" src="assets/img/team/3.jpg" width="133"/>
 <h5 class="fw-bold mt-3 mb-1">Amanda Alleson</h5>
 <h5 class="fw-normal text-800 mb-1">UX Designer</h5><a class="stretched-link" href="#!"></a>
 </div>
 </div>
+<!-- Video destacado con imagen de placeholder -->
 <div class="col-6 col-sm-4 col-auto mb-5">
 <div class="position-relative d-flex flex-center flex-column"><img alt="" class="img-fluid rounded-circle" src="assets/img/team/4.jpg" width="133"/>
 <h5 class="fw-bold mt-3 mb-1">Brandon Renfrow</h5>
@@ -201,6 +225,7 @@
 <h5 class="fw-normal text-800 mb-1">SEO Scientist</h5><a class="stretched-link" href="#!"></a>
 </div>
 </div>
+<!-- Llamada a la acción -->
 <div class="col-6 col-sm-4 col-auto mb-5">
 <div class="position-relative d-flex flex-center flex-column"><img alt="" class="img-fluid rounded-circle" src="assets/img/team/7.jpg" width="133"/>
 <h5 class="fw-bold mt-3 mb-1">Casey Coates</h5>
@@ -231,6 +256,7 @@
 </div>
 <div class="col-lg-10"><img alt="..." class="w-100" src="assets/img/cta/cta-about.png" style="border-radius:1rem;"/></div>
 </div>
+<!-- Footer de la sección -->
 <div class="row justify-content-center my-3">
 <div class="col-12 col-lg-10">
 <div class="card bg-soft-blue">
@@ -248,6 +274,7 @@
 </div>
 </div>
 </div>
+<!-- Barra lateral derecha (25% ancho) -->
 <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
 <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
 <div class="btn-close-boots-container times">
@@ -275,16 +302,19 @@
 <section class="p-0 page d-none" id="services">
 <div class="container-fluid">
 <div class="row">
+            <!-- Contenido principal (75% ancho) -->
 <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-8 pt-lg-0 pb-0 px-lg-0">
+<!-- Tarjeta de servicios destacados -->
 <div class="row min-vh-25 flex-center">
 <div class="col-lg-10">
 <div class="card card-span">
 <div class="bg-holder bg-size" style="background-image:url(assets/img/services/services-card-bg.png);background-position:top center;background-size:cover;border-end-end-radius:5.5rem;border-end-start-radius:5.5rem;">
 </div>
-<!--/.bg-holder-->
+<!-- Contenido de servicios -->
 <div class="card-body position-relative">
 <div class="text-center my-3">
 <h2 class="fs-1 fs-md-2 fs-lg-3">What We Do Best</h2>
+<!-- Servicio 1: Desarrollo -->
 <div class="row flex-center">
 <div class="col-xl-9 col-xxl-8 my-6">
 <div class="d-sm-flex flex-center"><img alt="services" class="order-0 pe-4" src="assets/img/services/development.png"/>
@@ -294,6 +324,7 @@
 </div>
 </div>
 </div>
+<!-- Servicio 2: Diseño -->
 <div class="col-xl-9 col-xxl-8 my-6">
 <div class="d-sm-flex flex-center"><img alt="services" class="order-1 ps-4" src="assets/img/services/design.png"/>
 <div class="flex-1 text-center text-sm-start">
@@ -302,6 +333,7 @@
 </div>
 </div>
 </div>
+<!-- Servicio 3: Aplicaciones -->
 <div class="col-xl-9 col-xxl-8 my-6">
 <div class="d-sm-flex flex-center"><img alt="services" class="order-0 pe-4" src="assets/img/services/application.png"/>
 <div class="flex-1 text-center text-sm-start">
@@ -314,8 +346,10 @@
 </div>
 </div>
 </div>
+<!-- Planes de precios (Línea 350)               -->
 <div class="row py-7 justify-content-center">
 <h2 class="mb-4 text-center"><span class="fw-medium">Choose </span>Your Plan</h2>
+<!-- Plan Básico -->
 <div class="col-sm-6 col-xl-4 pt-4 px-md-2">
 <div class="card card-span h-100 bg-white" style="border-radius:1rem;">
 <div class="card-body d-flex flex-column justify-content-around px-xl-4 px-xxl-5">
@@ -341,6 +375,7 @@
 </div>
 </div>
 </div>
+<!-- Plan Avanzado (Destacado) -->
 <div class="col-sm-6 col-xl-4 pt-4 px-md-2">
 <div class="card card-span h-100 bg-pricing-gradient" style="border-radius:1rem;">
 <div class="card-body d-flex flex-column justify-content-around px-xl-4 px-xxl-5">
@@ -366,6 +401,7 @@
 </div>
 </div>
 </div>
+<!-- Plan Business -->
 <div class="col-sm-6 col-xl-4 pt-4 px-md-2">
 <div class="card card-span h-100 bg-white" style="border-radius:1rem;">
 <div class="card-body d-flex flex-column justify-content-around px-xl-4 px-xxl-5">
@@ -392,10 +428,12 @@
 </div>
 </div>
 </div>
+<!-- Clientes destacados (Línea 450)              -->
 <div class="row pt-7 flex-center">
 <div class="col-xl-9">
 <div class="row">
 <h2 class="text-center mb-6"><span class="fw-medium">Our </span>Valuable Clients</h2>
+<!-- Logos de clientes en grid 3x2 -->
 <div class="col-6 col-sm-4 text-center mb-4"><img alt="..." class="img-fluid" src="assets/img/brands/mailbluster.png"/></div>
 <div class="col-6 col-sm-4 text-center mb-4"><img alt="..." class="img-fluid" src="assets/img/brands/netflix.png"/></div>
 <div class="col-6 col-sm-4 text-center mb-4"><img alt="..." class="img-fluid" src="assets/img/brands/google.png"/></div>
@@ -407,6 +445,7 @@
 </div>
 </div>
 <div class="col-12">
+<!-- Llamada a la acción (Línea 500)-->
 <div class="row justify-content-center pt-3d">
 <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8">
 <div class="card bg-backdrop">
@@ -420,6 +459,7 @@
 </div>
 <div class="col-lg-10"><img alt="..." class="w-100" src="assets/img/cta/cta-services.png" style="border-radius:1rem;"/></div>
 </div>
+<!-- Footer de sección (Línea 550)                -->
 <div class="row justify-content-center my-3">
 <div class="col-12 col-lg-10">
 <div class="card bg-soft-danger">
@@ -439,6 +479,7 @@
 </div>
 </div>
 </div>
+<!-- Barra lateral derecha (Línea 580)            -->
 <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
 <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
 <div class="btn-close-boots-container times">
@@ -458,7 +499,7 @@
 </div>
 <!-- end of .container-->
 </section>
-<!-- <section> close ============================-->
+<!-- Barra lateral derecha (Línea 580)            -->
 <!-- ============================================-->
 <!-- ============================================-->
 <!-- <section> begin ============================-->
@@ -466,12 +507,16 @@
 <section class="p-0 page d-none" id="portfolio">
 <div class="container-fluid">
 <div class="row">
+<!-- Contenido principal (75% ancho) -->
 <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-8 pt-xl-7 pt-xxl-8 pb-0">
+<!-- Galería de proyectos -->
 <div class="row flex-center">
 <div class="col-lg-10 col-xl-7">
+<!-- Título y filtros -->
 <div class="text-center mb-5 mb-lg-6">
 <h2><span class="fw-medium">Our</span> Latest Works</h2>
 </div>
+<!-- Filtros tipo isotópico -->
 <div class="mb-5 sortable" data-filter-nav="data-filter-nav">
 <ul class="nav menu justify-content-center mb-2" data-filter-nav="data-filter-nav">
 <li class="nav-item ls">
@@ -491,8 +536,10 @@
 </li>
 </ul>
 </div>
+<!-- Grid de proyectos (Masonry) -->
 <div class="row g-2 mt-2" data-isotope="{&quot;layoutMode&quot;:&quot;packery&quot;}"
 id="portfolio-gallery">
+<!-- Proyecto 1 - Interior -->
 <div class="col-6 masonry-item interior">
 <div class="card hoverbox overflow-hidden"><img alt="" class="img-fluid" src="assets/img/projects/portfolio-1.png"/>
 <div class="card-img-overlay">
@@ -507,6 +554,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- Proyecto 2 - Photography Session-->
 <div class="col-6 col-md-3 masonry-item photography">
 <div class="card hoverbox overflow-hidden"><img alt="" class="img-fluid" src="assets/img/projects/portfolio-3.png"/>
 <div class="card-img-overlay">
@@ -521,6 +569,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- Proyecto 3 - Photography Urban-->
 <div class="col-6 masonry-item interior">
 <div class="card hoverbox overflow-hidden"><img alt="" class="img-fluid" src="assets/img/projects/portfolio-8.png"/>
 <div class="card-img-overlay">
@@ -542,6 +591,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- Proyecto 4 - Studio -->
 <div class="col-6 col-md-3 masonry-item studio illustration">
 <div class="card hoverbox overflow-hidden"><img alt="" class="img-fluid" src="assets/img/projects/portfolio-7.png"/>
 <div class="card-img-overlay">
@@ -554,6 +604,7 @@ id="portfolio-gallery">
 <div class="card-img-overlay">
 <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" data-bs-target="#modalFullscreen" data-bs-toggle="modal" href="#"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
 </div>
+<!-- Más proyectos... (hasta línea 750) -->
 </div>
 </div>
 <div class="col-6 col-md-3 masonry-item photography">
@@ -563,6 +614,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- Llamada a la acción -->
 <div class="col-6 masonry-item illustration">
 <div class="card hoverbox overflow-hidden"><img alt="" class="img-fluid" src="assets/img/projects/portfolio-9.png"/>
 <div class="card-img-overlay">
@@ -593,6 +645,7 @@ id="portfolio-gallery">
 </div>
 <div class="col-lg-10"><img alt="..." class="w-100" src="assets/img/cta/cta-portfolio.png" style="border-radius:1rem;"/></div>
 </div>
+<!-- Footer de sección -->
 <div class="row justify-content-center my-3">
 <div class="col-12 col-lg-10">
 <div class="card bg-soft-pink">
@@ -612,6 +665,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- Barra lateral derecha -->
 <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
 <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
 <div class="btn-close-boots-container times">
@@ -642,29 +696,35 @@ id="portfolio-gallery">
 <div class="row">
 <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-6 pt-lg-0">
 <section class="pt-8 pt-xl-7 pt-xxl-8 pb-0">
+<!-- Fondo decorativo -->
 <div class="bg-holder bg-size" style="background-image:url(assets/img/contact-bg.png);background-position:left center;background-size:auto;">
 </div>
 <!--/.bg-holder-->
 <div class="container-fluid">
 <div class="row justify-content-center pb-5">
 <div class="col-sm-9 col-lg-6">
+<!-- Encabezado -->
 <div class="text-center mb-5 mb-lg-6">
 <h2><span class="fw-medium">Get In </span>Touch</h2>
 </div>
+<!-- Información de contacto -->
 <h4>Connect with us</h4>
 <p class="mb-7">Having the shortest possible delay between idea and launch is crucial<br class="d-none d-xxl-block"/>in business. </p>
+<!-- Teléfono -->
 <div class="d-flex align-items-center mb-2">
 <div class="icon icon-warning shadow-1"><i class="fas fa-phone fs-1"></i></div>
 <div class="flex-1 ms-3">
 <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:+880124332334">+880124332334</a></p>
 </div>
 </div>
+<!-- Email -->
 <div class="d-flex align-items-center mb-2">
 <div class="icon icon-warning shadow-2"><i class="fas fa-envelope fs-1"></i></div>
 <div class="flex-1 ms-3">
 <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="mailto:mail.something@email.com ">mail.something@email.com </a></p>
 </div>
 </div>
+<!-- Dirección -->
 <div class="d-flex align-items-center">
 <div class="icon icon-warning fs-2 shadow-3"><i class="fas fa-map-marker-alt"></i></div>
 <div class="flex-1 ms-3">
@@ -672,6 +732,7 @@ id="portfolio-gallery">
 </div>
 </div>
 <hr class="my-6 text-200"/>
+<!-- Redes sociales -->
 <div class="text-center mb-5 mb-lg-6">
 <h2 class="mb-5">Follow </h2>
 <ul class="list-unstyled list-inline">
@@ -683,23 +744,33 @@ id="portfolio-gallery">
 </ul>
 </div>
 <hr class="my-6 text-200"/>
+<!-- Formulario de contacto -->
 <h4>Drop us a line</h4>
 <p class="mb-7">Our team are eagerly waiting to help you growing your business. Please feel free to contact with us.</p>
 <form class="row g-4" data-form="data-form" onsubmit="return false">
+<!-- Campo Nombre -->
 <label class="form-label text-700" for="inputName"><i class="fas fa-user me-2"></i>NAME</label>
 <input class="form-control form-boots-control mt-0" id="inputName" name="name" type="text"/>
+<!-- Campo Email -->
 <label class="form-label text-700" for="inputEmail4"> <i class="fas fa-envelope me-2"></i>YOUR EMAIL</label>
+<!-- Campo Mensaje -->
 <input class="form-control form-boots-control mt-0" id="inputEmail4" name="email" type="email"/>
 <label class="form-label text-700" for="validationTextarea"> <i class="fas fa-pen me-2"></i>MESSAGE</label>
 <textarea class="form-control is-invalid border-400 form-boots-control mt-0" cols="50" id="validationTextarea" name="message" placeholder="Message" required="required" rows="6"> </textarea>
+<!-- Botón de enviar -->
 <button class="btn btn-boots-warning w-100 mt-5" type="submit">Send</button>
 <div class="feedback"> </div>
 </form>
 </div>
 </div>
+<!-- ============ FIN DEL FRAGMENTO (LÍNEA 900) ============ -->
+ <!-- ============================================-->
+<!-- Mapa Google (Línea 900)                      -->
+<!-- ============================================-->
 <div class="row justify-content-center mt-4 py-3">
 <div class="col-12 col-lg-10">
 <div class="rounded googlemap min-vh-50" data-gmap="data-gmap" data-icon="assets/img/map-marker.png" data-latlng="48.8583701,2.2922873,17" data-scrollwheel="false" data-theme="Default" data-zoom="17">
+<!-- InfoWindow del marcador -->
 <div class="marker-content py-3">
 <h5>Eiffel Tower</h5>
 <p>Gustave Eiffel's iconic, wrought-iron 1889 tower,<br/> with steps and elevators to observation decks. </p>
@@ -707,6 +778,10 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+
+<!-- ============================================-->
+<!-- Footer de Contact (Línea 920)               -->
+<!-- ============================================-->
 <div class="row justify-content-center my-3">
 <div class="col-12 col-lg-10">
 <div class="card bg-soft-orange-1">
@@ -726,6 +801,10 @@ id="portfolio-gallery">
 </div>
 </section>
 </div>
+
+<!-- ============================================-->
+<!-- Barra lateral derecha de Contact (Línea 950) -->
+<!-- ============================================-->
 <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
 <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
 <div class="btn-close-boots-container times">
@@ -754,22 +833,24 @@ id="portfolio-gallery">
 <section class="p-0 page d-none" id="faq">
 <div class="container-fluid">
 <div class="row">
+<!-- 📜 CONTENIDO PRINCIPAL (Izquierda) -->
 <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-7 pt-xxl-8 pb-0">
 <div class="row flex-center">
 <div class="col-11 col-xl-6">
+<!-- 🏷️ TÍTULO DE LA SECCIÓN -->
 <div class="text-center mb-5 mb-lg-6">
 <h2><span class="fw-medium">Frequently Asked </span> Questions</h2>
 <!-- 📑 ACORDEÓN DE PREGUNTAS -->
 <div class="accordion mt-8" id="accordionExample">
-<!-- 📑 ACORDEÓN DE PREGUNTAS -->
+<!-- 📑 ACORDEÓN DE PREGUNTAS ❔ PREGUNTA 1-->
 <div class="accordion-item">
 <div class="my-3 border-start border-3">
 <!-- 📑 ACORDEÓN DE PREGUNTAS -->
 <h2 class="accordion-header" id="heading1">
-<!-- 📑 ACORDEÓN DE PREGUNTAS -->
+<!-- 📑 ACORDEÓN DE PREGUNTAS 🔘 BOTÓN DE LA PREGUNTA-->
 <button aria-controls="collapse1" aria-expanded="true" class="accordion-button px-4 py-0 text-1000" data-bs-target="#collapse1" data-bs-toggle="collapse" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">What is Boots5?</span></button>
 </h2>
-<!-- 📑 ACORDEÓN DE PREGUNTAS -->
+<!-- 📑 ACORDEÓN DE PREGUNTAS 📦 CONTENIDO DE LA RESPUESTA-->
 <div aria-labelledby="heading1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapse1">
 <!-- 📑 ACORDEÓN DE PREGUNTAS -->
 <div class="accordion-body pt-3 px-4 text-justify">Bootst5 is a first Bootstrap 4 premium template. It is published in 1896 by talented Boots4 Team. It is also called most popular Bootsrap template in the world. The unique layout and clean design are the main reason of its populairity. At first Boots4 was published and get the top popularity among the web designer all over the world. After this version 2 is published and keep its popularity. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eligendi, nostrum sint, quis inventore molestiae porro sit aut unde accusantium neque earum dolor exercitationem architecto repellendus nobis aspernatur sapiente dolores? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ratione laudantium accusamus, quibusdam odio ipsam blanditiis doloribus eius in delectus, corrupti mollitia vel nam!!</div>
@@ -791,7 +872,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
-<!-- 📑 ACORDEÓN DE PREGUNTAS -->
+<!-- 📑 ACORDEÓN DE PREGUNTAS ❔ PREGUNTA 2 (estructura similar)-->
 <div class="accordion-item">
 <div class="my-3 border-start border-3">
 <!-- 📑 ACORDEÓN DE PREGUNTAS -->
@@ -821,6 +902,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- 🚀 CALL-TO-ACTION (Iniciar proyecto) -->
 <!-- 📑 ACORDEÓN DE PREGUNTAS -->
 <div class="accordion-item">
 <div class="my-3 border-start border-3">
@@ -876,6 +958,7 @@ id="portfolio-gallery">
 <div class="col-lg-6 text-center text-lg-start">
 <p class="fs--1 my-2 fw-bold text-gradient-indigo-soft">All rights Reserved © Your Company, 2021</p>
 </div>
+<!-- 🎨 BARRA LATERAL DERECHA (Diseño visual) -->
 <div class="col-lg-6 d-lg-flex align-self-center justify-content-end text-center">
 <p class="fs--1 mb-0 text-gradient-indigo-soft">Made with <span class="fas fa-heart mx-1 text-info"></span>by<a href="https://themewagon.com/"> Themewagon</a></p>
 </div>
@@ -914,6 +997,7 @@ id="portfolio-gallery">
 <section class="p-0 page d-none" id="gallery">
 <div class="container-fluid">
 <div class="row">
+<!-- 📸 COLUMNA PRINCIPAL (Contenido interactivo) -->
 <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-xl-7 pt-xxl-8 pb-0">
 <div class="row min-vh-25 flex-center">
 <div class="col-lg-10">
@@ -921,15 +1005,16 @@ id="portfolio-gallery">
 <h2><span class="fw-medium">Photos </span>we took</h2>
 </div>
 <!-- ============================================-->
-<!-- <section> begin ============================-->
+<!-- <section> begin 🖱️ PRIMER CARRUSEL (Swiper)=-->
 <section class="py-3" id="swiper">
 <div class="container-fluid">
 <div class="row justify-content-center">
 <div class="col-lg-10 col-xl-8">
-<!-- 🖱️ CARRUSEL/Swiper -->
+<!-- 🖱️ CARRUSEL/Swiper 🔄 Contenedor Swiper con autoplay y loop-->
 <div class="swiper-container theme-slider gallerySwiper" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:3000},&quot;loop&quot;:true,&quot;slideToClickedSlide&quot;:true,&quot;effect&quot;:&quot;fade&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true}}"
 >
 <div class="swiper-wrapper h-100">
+<!-- 🖼️ Slide 1 -->
 <div class="swiper-slide h-100">
 <div class="card h-100"><img alt="" class="img-fluid" src="assets/img/gallery/gallery-1.png"/>
 <div class="card-body h-100 px-2">
@@ -938,12 +1023,14 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- 🖼️ Slide 2 -->
 <div class="swiper-slide h-100">
 <div class="card h-100"><img alt="" class="img-fluid" src="assets/img/gallery/gallery-28.png"/>
 <div class="card-body h-100 px-2">
 <h5 class="my-3 text-center">What Does It Mean?</h5>
 <p class="mb-0">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain</p>
 </div>
+<!-- 🔘 Puntos de paginación -->
 </div>
 </div>
 <div class="swiper-slide h-100">
@@ -955,17 +1042,22 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- 🖼️ GRID DE IMÁGENES (2 columnas) -->
 <div class="swiper-pagination"> </div>
 </div>
 <div class="row justify-content-between">
+<!-- Columna izquierda -->
 <div class="col-sm-6 my-sm-6 border-lg-end pe-sm-5"><img alt="" class="img-fluid" src="assets/img/gallery/gallery-2.png"/>
 <h5 class="mb-2 mt-4">Product Photography</h5>
+<!-- Más imágenes/texto... -->
+
 <p class="mb-5">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p><img alt="" class="img-fluid" src="assets/img/gallery/gallery-4.png"/>
 <h5 class="mb-2 mt-4">Software Controlled</h5>
 <p class="mb-5">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p><img alt="" class="img-fluid" src="assets/img/gallery/gallery-18.png"/>
 <h5 class="mb-2 mt-4">Product Photography</h5>
 <p class="mb-5">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
 </div>
+<!-- Columna derecha -->
 <div class="col-sm-6 my-sm-6 border-lg-start ps-sm-5"><img alt="" class="img-fluid" src="assets/img/gallery/gallery-3.png"/>
 <h5 class="mb-2 mt-4">Features</h5>
 <p class="mb-5">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p><img alt="" class="img-fluid" src="assets/img/gallery/gallery-5.png"/>
@@ -983,7 +1075,7 @@ id="portfolio-gallery">
 <!-- <section> close ============================-->
 <!-- ============================================-->
 <!-- ============================================-->
-<!-- <section> begin ============================-->
+<!-- <section> begin 🖱️ SEGUNDO CARRUSEL (Ejemplo adicional) -->
 <section class="py-3">
 <div class="container-fluid">
 <div class="row justify-content-center">
@@ -992,6 +1084,7 @@ id="portfolio-gallery">
 <div class="swiper-container theme-slider gallerySwiper" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:3000},&quot;loop&quot;:true,&quot;slideToClickedSlide&quot;:true,&quot;effect&quot;:&quot;fade&quot;,&quot;pagination&quot;:{&quot;type&quot;:&quot;bullets&quot;,&quot;clickable&quot;:true}}"
 >
 <div class="swiper-wrapper">
+  <!-- Slides adicionales... -->
 <div class="swiper-slide">
 <div class="card"> <img alt="" class="img-fluid" src="assets/img/gallery/gallery-25.png"/>
 <div class="card-body px-2">
@@ -1057,6 +1150,7 @@ id="portfolio-gallery">
 </div>
 </div>
 </div>
+<!-- 🚀 CALL-TO-ACTION (Iniciar proyecto) -->
 <div class="swiper-slide">
 <div class="card"><img alt="" class="img-fluid" src="assets/img/gallery/gallery-15.png"/>
 <div class="card-body px-2">
@@ -1124,6 +1218,7 @@ id="portfolio-gallery">
 <div class="col-lg-6 text-center text-lg-start">
 <p class="fs--1 my-2 fw-bold text-gradient-cyan-soft-2">All rights Reserved © Your Company, 2021</p>
 </div>
+<!-- 🎨 BARRA LATERAL DERECHA (Diseño visual) -->
 <div class="col-lg-6 d-lg-flex align-self-center justify-content-end text-center">
 <p class="fs--1 mb-0 text-gradient-cyan-soft-2">Made with <span class="fas fa-heart mx-1 text-success"></span>by<a href="https://themewagon.com/"> Themewagon</a></p>
 </div>
@@ -1137,6 +1232,7 @@ id="portfolio-gallery">
 </div>
 <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
 <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+<!-- 🖌️ Fondo decorativo -->
 <div class="btn-close-boots-container times">
 <div class="btn-close-boots"></div>
 </div>
@@ -1144,8 +1240,11 @@ id="portfolio-gallery">
 </div>
 <!--/.bg-holder-->
 <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+<!-- 📛 Título vertical -->
 <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4">Gallery</h1><img alt="icon" class="d-none d-lg-block line-icons mt-5" src="assets/img/lineicons/camera.png"/>
+<!-- 📷 Ícono temático -->
 <hr class="my-4 w-100 d-none d-lg-block opacity-25"/>
+<!-- 🔗 NAVEGACIÓN ENTRE SECCIONES -->
 <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link"><a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#faq"> <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-3"></i><span class="text-capitalize">faq</span></a><a class="sidebar-nav btn btn-link text-decoration-none px-1" href="#about"><span class="text-capitalize">about</span><i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i></a></div>
 </div>
 </div>
@@ -1226,7 +1325,7 @@ id="portfolio-gallery">
 </div>
 </div>
 <!-- ===============================================-->
-<!--    JavaScripts-->
+<!--    JavaScripts (Recursos externos y scripts)    -->
 <!-- ===============================================-->
 <script src="vendors/popper/popper.min.js"></script>
 <script src="vendors/bootstrap/bootstrap.min.js"></script>
